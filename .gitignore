@@ -1,0 +1,34 @@
+# 數據文件（根目錄）
+/*.csv
+/*.json
+!package.json
+!package-lock.json
+
+# 生成的報告
+*.html
+/reports/
+
+# 保留 examples 目錄
+!/examples/*.csv
+!/examples/*.json
+
+# 依賴包
+/node_modules/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 環境配置
+.env
+.env.local
+
+# 日誌文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
